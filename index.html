@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<img src="images/firefox1.png" class="myPic" width="100px" height="100px"/>
+<br >
+<h1>Mozilla is cool</h1>
+<button>change user</button>
+<textarea rows="5" cols="20">A big load of text</textarea>
+
+<select>
+    <option>Option 1</option>
+    <option>Option 2</option>
+    <option value="third option">Option 3</option>
+</select>
+
+
+<form action="contactus.php" method="post">
+
+    <p>Name:</p>
+    <p><input type="text" name="name" value="Your name"></p>
+
+    <p>Species:</p>
+    <p><input name="species"></p>
+    <!-- remember: 'type="text"' isn't actually necessary -->
+
+    <p>Comments: </p>
+    <p><textarea name="comments" rows="5" cols="20">Your comments</textarea></p>
+
+    <p>Are you:</p>
+    <p><input type="radio" name="areyou" value="male"> Male</p>
+    <p><input type="radio" name="areyou" value="female"> Female</p>
+    <p><input type="radio" name="areyou" value="hermaphrodite"> An hermaphrodite</p>
+    <p><input type="radio" name="areyou" value="asexual"> Asexual</p>
+
+    <p><input type="submit"></p>
+	
+<ul>
+    <li><a href="here.html" tabindex="1">Here</a></li>
+    <li><a href="there.html" tabindex="3">There</a></li>
+    <li><a href="limbo.html" tabindex="2">Limbo</a></li>
+</ul>
+
+
+</form>
+
+<form>
+    <label for="yourName">Your Name</label>
+    <input name="yourName" id="yourName">
+	
+	
+	
+	<form action="somescript.php" >
+    <fieldset>
+        <legend>Name</legend>
+        <p>First name <input name="firstName"></p>
+        <p>Last name <input name="lastName"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend>
+        <p>Address <textarea name="address"></textarea></p>
+        <p>Postal code <input name="postcode"></p>
+    </fieldset>
+<script src="script/main.js"></script>
+</body>
+</head>
+</html>
